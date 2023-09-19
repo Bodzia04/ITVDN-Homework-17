@@ -29,7 +29,7 @@
         <button id="delete">Delete</button> -->
         <!-- Задание 2: -->
         <!-- Задание 3: -->
-        <form name="writeForm">
+        <!-- <form name="writeForm">
             <div class="form-groupt">
                 <label>Key</label>
                 <input type="text" name="keyInput" required />
@@ -54,8 +54,42 @@
         </form>
         <button id="showAllButton">Show all</button>
         <button id="deleteAllButton">Delete all in localStorage</button>
-        <table id="localStorageContent"></table>
+        <table id="localStorageContent"></table> -->
         <!-- Задание 3: -->
+        <!-- Задание 4: -->
+        <ul id="userList">
+        </ul>
+    
+        <form id="output">
+            <div class="form-group">
+                <label for="firstName">Имя</label>
+                <input type="text" name="firstName" id="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Фамилия</label>
+                <input type="text" name="lastName" id="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="companyName">Компания</label>
+                <input type="text" name="companyName" id="companyName" required>
+            </div>
+            <div class="form-group">
+                <label for="balance">Баланс</label>
+                <input type="number" name="balance" id="balance" required min="1000">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Возраст</label>
+                <input type="number" name="age" id="age" required min="18">
+            </div>
+            <input type="submit" value="Save" id="saveButton">
+            <input type="reset" value="Reset">
+            <input type="button" value="Delete" id="deleteButton">
+        </form>
+        <!-- Задание 4: -->
         <script src="file.js"></script>
     </body>
 </html>
